@@ -15,7 +15,7 @@ sudo apt install flatpak gnome-software-plugin-flatpak -y ; flatpak remote-add -
 
 ## ATUALIZAÇÃO DO SISTEMA ##
 
-sudo apt update ; sudo apt full-upgrade -y ; sudo apt autoclean -y ; sudo apt autoremove -y  ;
+sudo apt update ; sudo apt full-upgrade -y ; sudo apt autoclean -y ; sudo apt autoremove -y ;
 
 
 ## INSTALAÇÃO DE SOFTWARE EXTERNO ##
