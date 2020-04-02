@@ -7,7 +7,7 @@ sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock ;
 
 ## REMOÇÃO DE APLICAÇÕES APÓS INSTALAÇÃO DO DEBIAN BUSTER ##
 
-sudo apt-get remove gnome-maps gnome-screenshot gnome-music gnome-games gnome-weather totem cheese eog shotwell libreoffice-common yelp gnome-documents gnome-todo xterm vinagre gnome-sound-recorder -y ; apt-get autoremove -y ; apt-get install sudo wget -y ;
+sudo apt-get remove gnome-maps gnome-screenshot gnome-music gnome-games gnome-weather totem cheese eog shotwell libreoffice-common yelp gnome-documents gnome-todo xterm vinagre gnome-sound-recorder -y ; apt-get autoremove -y ; apt-get install sudo wget gpart gparted -y ;
 
 
 ## INSTALAÇÃO E CONFIGURAÇÃO FLATPAK ##
@@ -24,4 +24,4 @@ cd ~/Downloads/ && wget -c https://github.com/oguzhaninan/Stacer/releases/downlo
 
 ## INSTALAÇÃO DE PROGRAMAS NO FLATPAK
 
-sudo flatpak install flathub org.libreoffice.LibreOffice com.valvesoftware.Steam org.telegram.desktop org.jdownloader.JDownloader com.calibre_ebook.calibre org.videolan.VLC com.discordapp.Discord com.obsproject.Studio org.kde.kdenlive org.audacityteam.Audacity org.apache.netbeans com.google.AndroidStudio com.jetbrains.PyCharm-Community org.gnome.Boxes org.gnome.Glade org.gnome.gitg -y
+sudo flatpak install flathub org.libreoffice.LibreOffice com.valvesoftware.Steam org.telegram.desktop org.jdownloader.JDownloader com.calibre_ebook.calibre org.videolan.VLC com.discordapp.Discord com.anydesk.Anydesk com.obsproject.Studio org.kde.kdenlive org.audacityteam.Audacity org.apache.netbeans com.google.AndroidStudio com.jetbrains.PyCharm-Community org.gnome.Boxes org.gnome.Glade org.gnome.gitg -y
