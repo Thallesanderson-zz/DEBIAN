@@ -1,4 +1,4 @@
-### Repositorio com scripts para facilitar instalação de aplicações no DEBIAN.
+### Repositorio com scripts para facilitar instalação de aplicações no DEBIAN BUSTER.
 
 
 ## Redes Sociais
